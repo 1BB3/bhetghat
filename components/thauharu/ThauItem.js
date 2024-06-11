@@ -21,7 +21,9 @@ function ThauItem(props) {
           <h3>{props.title}</h3>
           <address>{props.address}</address>
         </div>
-        <div className={isLoading ? classes.loading : classes.actions}>
+        <div
+          className={`${classes.actions} ${isLoading ? classes.loading : ""}`}
+        >
           <button disabled={isLoading} onClick={showDetailsHandler}>
             {isLoading ? "Loading..." : "Show Details"}
           </button>
