@@ -57,6 +57,6 @@ export async function getStaticProps(context) {
 
   return {
     props: { ...selectedThau, _id: selectedThau._id.toString() },
-    revalidate: 3600,
+    revalidate: 1,
   };
 }
