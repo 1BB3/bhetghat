@@ -25,7 +25,7 @@ function MainNavigation() {
       )}
       <div className={classes.title}>
         <span
-          className={"material-symbols-outlined " + classes.menu}
+          className={`material-symbols-outlined ${classes.menu}`}
           onClick={handleOpenSideMenu}
         >
           menu
