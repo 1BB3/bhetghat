@@ -5,8 +5,8 @@ export default function SideNavigation({
   onSideMenuClick,
 }) {
   return (
-    <ul onClick={onSideMenuClick} className={sideMenuClasses}>
-      <li>
+    <ul className={sideMenuClasses}>
+      <li onClick={onSideMenuClick}>
         <Link href="/">Thauharu</Link>
       </li>
       <li onClick={onSideMenuClick}>
