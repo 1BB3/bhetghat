@@ -14,7 +14,7 @@ function MainNavigation() {
   function handleCloseSideMenu() {
     setOpenSideMenu(false);
   }
-  function handleSideMenuClick() {
+  function handleSideMenuClick(event) {
     setOpenSideMenu(false);
   }
 
